@@ -127,7 +127,7 @@ O layout foi construído com HTML e CSS, com foco em simplicidade e clareza para
 
 ---
 
-## 📸 Print do Funcionamento (opcional)
+## 📸 Print do Funcionamento do Sistema
 
 ![Texto alternativo](/captura-sistema.PNG)
 
