@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Clínica Veterinária</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f7f7f7;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1, h2 {
+      color: #2c3e50;
+      text-align: center;
+    }
+
+    form {
+      max-width: 400px;
+      margin: 20px auto;
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    input, button {
+      width: 100%;
+      padding: 2px;
+      margin-top: 15px;
+      font-size: 16px;
+    }
+
+    button {
+      background-color: #27ae60;
+      color: white;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    button:hover {
+      background-color: #2ecc71;
+    }
+
+    #btn-ver-animais {
+      max-width: 400px;
+      margin: 10px auto;
+      display: block;
+    }
+
+    ul {
+      max-width: 600px;
+      margin: 20px auto;
+      padding: 0;
+      list-style-type: none;
+    }
+
+    li {
+      background: #fff;
+      margin-bottom: 10px;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+  <h1>Cadastro de Animais</h1>
+  <form id="form-animal">
+    <input type="text" id="nome" placeholder="Nome do Animal" required />
+    <input type="text" id="especie" placeholder="Espécie" required />
+    <input type="text" id="raca" placeholder="Raça" required />
+    <input type="text" id="tutor" placeholder="Nome do Tutor" required />
+    <button type="submit">Cadastrar</button>
+  </form>
+
+  <h2>Animais Cadastrados</h2>
+  <ul id="lista-animais"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
