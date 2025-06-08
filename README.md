@@ -129,7 +129,7 @@ O layout foi construído com HTML e CSS, com foco em simplicidade e clareza para
 
 ## 📸 Print do Funcionamento (opcional)
 
-![Texto alternativo](clinica-veterinaria/captura-sistema.PNG)
+![Texto alternativo](/captura-sistema.PNG)
 
 
 ---
