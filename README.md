@@ -129,7 +129,8 @@ O layout foi construído com HTML e CSS, com foco em simplicidade e clareza para
 
 ## 📸 Print do Funcionamento (opcional)
 
-Se desejar, adicione um print de tela aqui para mostrar a aparência do projeto.
+![Texto alternativo](caminho/da/imagem)
+
 
 ---
 
